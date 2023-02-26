@@ -1,0 +1,40 @@
+body{
+    background-color: #000;
+    min-height: 90vh;
+    width: 100%;
+    height: 100%;
+    color: white;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+#wczytywanie{
+    font-size: 100px;
+}
+
+.przycisk{
+    padding: 10px 20px;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(151, 144, 145);
+    border: 5px solid #fff;
+    border-radius: 25px;
+}
+
+#scp {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('../Foto/mruczek.webp');
+    background-size: contain;
+  }
